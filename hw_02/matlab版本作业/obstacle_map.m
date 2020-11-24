@@ -1,6 +1,5 @@
  function map = obstacle_map(xStart,yStart,xTarget,yTarget,MAX_X,MAX_Y)
 %This function returns a map contains random distribution obstacles.
-%map:起点+obs+终点的坐标
     rand_map = rand(MAX_X,MAX_Y);
     map = [];
     map(1,1) = xStart;

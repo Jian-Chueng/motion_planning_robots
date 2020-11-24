@@ -3,13 +3,13 @@
 close all; clear all; clc;
 
 set(gcf, 'Renderer', 'painters');
-set(gcf, 'Position', [0, 0, 700, 700]);
+set(gcf, 'Position', [500, 50, 700, 700]);
 
 % Environment map in 2D space 
 xStart = 1.0;
 yStart = 1.0;
 xTarget = 9.0;
-yTarget = 9.0;
+yTarget = 8.0;
 MAX_X = 10;
 MAX_Y = 10;
 map = obstacle_map(xStart, yStart, xTarget, yTarget, MAX_X, MAX_Y);
